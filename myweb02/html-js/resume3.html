@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>简历</title>
+        <link rel="stylesheet" href="../css/style_3.css">
+    </head>
+    <body>
+        <!--h1通过display变成块级并浮动，在其父元素overflow：hidden清除浮动，可在body标签写，但方便理解特意新写了个clear1，下面的clear2同理用于清除浮动，但同时可以通过box-sizing和border设置边框-->
+        <div class="cl1">
+            <h1>简历</h1>
+        </div>
+        <div class="clear2">
+            <h2>基本信息</h2>
+            <!--其实h2和下面的div们是同级兄弟关系，方便好看区分而隔开而已，另外information1需要浮动并排列-->
+                <div class="information1">姓名：张三</div>
+                <div class="information1">性别：男</div>
+                <div class="information1">应聘职位：Web前端工程师</div>
+        </div>
+        <div class="clear2">
+            <h2>联系方式</h2>
+                <div class="information1">手机：12312341234</div>
+                <div class="information1">Email：
+                    <a href="https://www.baidu.com">joinefe@baidu.com
+                    </a>
+                </div>
+                <div class="information1">个人主页：
+                    <a href="http://www.youku.com">Github</a>
+                </div>
+        </div>
+        <div class="clear2">
+            <h2>能力描述</h2><!--information2其实不用浮动，</br>后原本就是上下排列，也可以另外用标签放置内容而不使用</br>换行-->
+                <div class="information2">技术能力</br>熟练掌握HTMl，CSS，JavaScript
+                </div>
+                <div class="information2">综合能力</br>良好的沟通，主动积极，努力勤奋
+                </div>
+        </div>
+        <div class="clear2">
+            <h2>教育经历</h2>
+                <div class="information2">本科 百度前端技术学院小伟学院
+                </div>
+                <div class="information2">研究生 百度前端学院大斌学
+                </div>
+        </div>
+        <div class="clear2">       
+            <h2>项目经历</h2>
+                <div class="information2">小度小度 作为前端工程师角色参与了ABC组件的开发
+                </div>
+                <div class="information2">SAN Doc 作为文档工程师参与了SAN Doc的编写
+                </div>
+        </div>
+    </body>
+</html>

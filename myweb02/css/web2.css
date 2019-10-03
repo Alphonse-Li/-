@@ -1,0 +1,626 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-style:"微软雅黑";
+    width:100%;
+    height:100%;
+}
+.box1{
+    overflow:hidden;
+    width:400px;
+    height:100%;
+    float:left;
+    position:relative;
+    top:0;
+    left:0;
+}
+/*高宽使用百分比的前提是要明确父级的高宽*/
+.float1{
+    display:block;
+    float:left;
+    width:80px;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+    background:black;
+    overflow:hidden;
+}
+.box1-1a{
+    position:absolute;
+    top:0;
+    left:50%;
+    width:80px;
+    margin-left:-40px;
+}
+.ahref1{
+    display:block;
+    margin:10px;
+}
+.box1-1b{
+
+    width:80px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-40px;
+    text-align: center;
+
+}
+.img-1b{
+    display: inline-block;
+    margin: 15px 5px;
+}
+.float2{
+    display:block;
+    float:left;
+    width:320px;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+    background:rgb(48,48,48);
+    overflow:hidden;
+}
+.box1-2a{
+    position:absolute;
+    top:0;
+    left:50%;
+    width:320px;
+    margin-left:-160px;
+}
+.span-2a{
+    display:block;
+    font-size:15px;
+    text-transform:Uppercase;
+    color:white;
+    opacity:0.6;
+    overflow:hidden; 
+    margin:10px 40px;
+
+
+}
+.img-2a{
+    display:block;
+    float:right;
+    margin:0px;
+}
+/*图标margin:3px;才对齐 但是数字消息多3px会导致前面间距不齐 待解决*/
+.ul-2a{
+    display:block;
+    padding:0px;
+    margin:0px 0px 0px 40px;
+    list-style:none;
+    color:white;
+    opacity:0.8;
+    text-transform:Capitalize;
+    font-size:18px;
+    
+}
+.li-2a{
+    margin:5px 0px;
+}
+.remind-2a{
+    display:block;
+    float:right;
+    font-size:16px;
+    background:rgb(32, 141, 243);
+    color:rgb(255,255,255,1);
+    box-sizing:border-box;
+    border:1px solid rgb(32, 141, 243);
+    width:32px;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+    text-align:center;
+    margin:0px 32px;
+}
+.clear{
+    clear:both;
+}
+.line{
+    display:block;
+    background:white;
+    opacity:0.1;
+    height:1px;
+    margin:15px 40px;
+}
+.li-2a1{
+    display:block;
+    background-image:url(../picture/web2/Book1.png);
+    background-position:0 50%;
+    background-repeat:no-repeat;
+    padding:0px 25px;
+    margin:5px auto ;
+}
+.li-2a2{
+    display:block;
+    background-image:url(../picture/web2/Video2.png);
+    background-position:0 50%;
+    background-repeat:no-repeat;
+    padding:0px 25px;
+    margin:5px auto ;
+
+}
+.li-2a3{
+    display:block;
+    background-image:url(../picture/web2/Painting3.png);
+    background-position:0 50%;
+    background-repeat:no-repeat;
+    padding:0px 25px;
+    margin:5px auto ;
+
+}
+.li-2a4{
+    display:block;
+    background-image:url(../picture/web2/Chart4.png);
+    background-position:0 50%;
+    background-repeat:no-repeat;
+    padding:0px 25px;
+    margin:5px auto ;
+
+}
+.remind-2a2{
+    display:block;
+    float:right;
+    font-size:16px;
+    background:red;
+    color:rgb(255,255,255,1);
+    box-sizing:border-box;
+    border:1px solid red;
+    height:20px;
+    width:20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:center;
+    margin:0px 38px;
+}
+.box1-2b{
+    width:320px;
+    position:absolute;
+    bottom:0;
+    right:50%;
+    margin-right:-160px;
+    
+
+}
+.spanStyle1{
+    display:inline-block;
+    color:white;
+    opacity:0.9;
+    font-size:16px;
+    margin:0px 40px 0px 30px;
+    
+ 
+    
+}
+.spanStyle2{
+    color:white;
+    opacity:0.9;
+    font-size:16px;
+  
+}
+.spanStyle3{
+    color:white;
+    opacity:0.6;
+    font-size:16px;
+
+}
+.spanStyle4{
+   box-sizing:border-box;
+   
+   height:6px;
+   margin:10px 30px;
+   background:rgba(255, 255, 255, 0.5);
+   
+}
+.spanStyle5{
+   box-sizing:border-box;
+   border:1px solid rgb(255, 0, 255) ;
+   height:6px;
+   background:rgb(255, 0, 255);
+   opacity:1;
+   width:60px;
+   margin:0px;
+   padding:0px;
+}
+.box1-2a>ul>li:hover{
+    color:white;
+    opacity:0.6;
+}
+
+.box2{
+    float:right;
+    width:calc(100% - 400px);
+    height:100%;
+    background:white;
+    position:relative;
+    overflow:scroll;
+}
+.box2-1a{
+    width:100%;
+    height:60px;
+    overflow:hidden;
+    box-sizing:border-box;
+    border-bottom:1px solid rgba(48,48,48,0.2);
+    background:white;
+    position:sticky;
+    top:0;
+    right:0;
+    z-index:10;
+
+}
+h1{ 
+    height:100%;
+    padding:10px 40px;
+    margin:0px;
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    font-size:25px;
+    text-transform:Capitalize;
+    font-weight:bold;
+    overflow:hidden;
+
+}
+.fixright1{
+    position:absolute;
+    top:0;
+    right:0;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+.img2-1a1{
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+.img2-1a2{
+    position:absolute;
+    top:42px;
+    left:40px;
+    background:white;
+    box-sizing:border-box;
+    border:1px solid white;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+.pic1{
+    float:left;
+    margin:5px;
+    overflow:hidden;
+}
+.span2-1a1{
+    display:block;
+    color:rgb(7, 78, 211);
+    font-size:18px;
+    font-weight:blod;
+    margin:2px;
+   
+}
+.span2-1a2{
+    display:block;
+    font-size:16px;
+    color:rgb(48,48,48);
+    margin:0px;
+}
+.img2-1a3{
+    float:right;
+    margin:30px 20px;
+}
+
+.floatBe{
+    
+    float:left;
+    width:450px;
+    box-sizing:border-box;
+    border-right:1px solid rgba(48,48,48,0.2);
+    overflow:hidden;
+}
+
+.form2-1{
+    margin:0px;
+    padding:5px;
+    height:60px;
+    box-sizing:border-box;
+    border-bottom:1px solid rgba(48,48,48,0.2);
+}
+.search1{
+    display:block;
+    width:370px;
+    height:30px;
+    margin:10px auto;
+    padding:0px 10px;
+    box-sizing:border-box;
+    border:1px solid rgba(48,48,48,0.2);
+    background:url(../picture/web2/Search2.png) no-repeat;
+    background-position:97% 50%;
+     /*用来调整背景图片在盒子里的位置 第一个值是水平位置，第二个值是垂直位置。左上角是 0% 0%。右下角是 100% 100%。如果您仅规定了一个值，另一个值将是 50%。*/
+}
+.box2-2a1{
+    box-sizing:border-box;
+    border-bottom:1px solid rgba(48,48,48,0.2) ;
+    position:relative;
+    border-left:4px solid rgb(32, 141, 243);
+    overflow:hidden;
+}
+.box2-2a2{
+    height:50px;
+    margin:5px 40px;
+    padding:0px;
+    position:relative;
+    overflow:hidden;
+    
+}
+.img2-2a1{
+    float:left;
+    margin:0px 10px 0px 0px;
+}
+.name2-1{
+    display:block;
+    color:black;
+    font-size:16px;
+    font-weight:bold;
+    text-transform:Capitalize;
+    margin:3px;
+    
+}
+.map2-1{
+    display:block;
+    color:rgba(48,48,48,0.4);
+    margin:0px;
+    font-size:14px;
+    font-weight:bold;
+    text-transform:Capitalize;
+}
+.time2-2{
+    position:absolute;
+    top:3px;
+    right:0px;
+    color:rgba(48,48,48,0.6);
+    font-size:14px;
+    font-weight:bold;
+    text-transform:Capitalize;
+}
+.content2-2{
+    display:block;
+    color:black;
+    font-size:14px;
+    margin:0px 80px 10px 40px;
+    
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+    /*上面四行是多行缩略，以下是单行缩略 overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;*/
+}
+.news2-2{
+    position:absolute;
+    bottom:20px;
+    right:40px;
+    background:rgb(32, 141, 243);
+    box-sizing:border-box;
+    border:1px solid rgb(32, 141, 243);
+    color:rgba(255,255,255,0.8);
+    font-size:14px;
+    text-align:center;
+    height:20px;
+    width:20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.name2-2{
+    display:block;
+    color:rgb(32, 141, 243);
+    font-size:16px;
+    font-weight:bold;
+    text-transform:Capitalize;
+    margin:3px;
+    background:url(../picture/web2/Status2.png) no-repeat;
+    background-position:15% 50%;
+    padding:0px 70px;
+}
+
+.Bessie{
+    float:right;
+    width:calc(100% - 450px);
+    overflow:hidden;
+}
+
+.box2-2a3{
+    width:100%;
+    height:60px;
+    padding:5px;
+    box-sizing:border-box;
+    border-bottom:1px solid rgba(48,48,48,0.2);
+}
+.name2-3{
+    float:left;
+    display:block;
+    width:30%;
+    margin:10px 15px;
+    font-size:18px;
+    font-weight:bold;
+    text-transform:Capitalize;
+    background:url(../picture/web2/Status2.png) no-repeat;
+    background-position:55% 50%;
+}
+.pic2{
+   display:block;
+   float:left;
+   margin:8px 0px 8px 100px;
+   overflow:hidden;
+   box-sizing:border-box;
+   border:2px solid rgba(48,48,48,0.2);
+   border-radius:10px;
+   background:white;
+
+}
+.img222{
+    display:block;
+    box-sizing:border-box;
+    float:left;
+    border:1px solid rgba(48,48,48,0.2);
+    padding:6px;
+}
+
+.text2a2{
+    display:block;
+    margin:15px 0px 15px 30px;
+    padding:0 30px;
+    box-sizing:border-box;
+    float:left;
+    border-left:1px solid rgba(48,48,48,0.2);
+    font-size:16px;
+    font-weight:narmal;
+}
+.leftright{
+    display:block;
+    float:left;
+    margin:10px 0px 10px 40px;
+    box-sizing:border-box;
+    border:2px solid rgba(48,48,48,0.2);
+    border-radius:10px;
+    overflow:hidden;
+}
+.lrx{
+    display:block;
+    float:left;
+    box-sizing:border-box;
+    border:1px solid rgba(48,48,48,0.2);
+    background:white;
+    padding:7px;
+}
+.ul222{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+.li222{
+    display:block;
+    background:url(../picture/web2/pe2.png) no-repeat;
+    background-position:6px 6px;
+}
+.spanx1{
+    display:inline-block;
+   padding:6px 20px 6px 60px;
+   font-size:14px;
+   font-weight:bold;
+}
+.spanx2{
+    display:inline-block;
+    font-size:12px;
+    font-weight:bold;
+    color:rgba(48,48,48,0.8)
+}
+.px1{
+    display:block;
+    margin:0 40px 5px 60px;
+    padding:0px;
+    font-size:12px;
+}
+
+.texty1{
+    background:rgb(0, 82, 235);
+    box-sizing:border-box;
+    border-bottom:1px solid rgb(0, 82, 235);
+    margin:5px 0px;
+}
+.texty2{
+    display:block;
+    font-size:12px;
+    color:rgb(0, 82, 235);
+    background:white;
+    padding:5px 10px;
+    position:absolute;
+    top:-8px; 
+    left:45%;
+}
+.flyy2{
+    position:relative;
+    overflow:hidden;
+}
+.texty4{
+    background:rgba(48,48,48,0.2);
+    box-sizing:border-box;
+    border-bottom:1px solid rgba(48,48,48,0.2);
+    margin:5px 0px;
+}
+.texty3{
+    display:block;
+    font-size:12px;
+    color:black;
+    background:white;
+    padding:5px 10px;
+    position:absolute;
+    top:-8px; 
+    left:45%;
+}
+.mapx1{
+    
+    display:block;
+    margin:0px;
+    padding:5px;
+    height:100%;
+}
+.mapx2{
+    display:block;
+    background:url(../picture/web2/Addx1.png) no-repeat 0px;
+    background-position:-0.5% 50%;
+    box-sizing:border-box;
+    border:1px solid rgba(48,48,48,0.2);
+    padding:16px 60px;
+    margin:0px 5px;
+    width:95%;
+    font-size:12px;
+}
+.imgx24{
+    opacity:0.8;
+    position:absolute;
+    top:30px;
+    left:55px;
+    padding:15px;
+    border-radius:100px;
+    background:rgba(48,48,48,0.6);
+    display:none;
+}
+.relativex34{   
+    float:left;
+    position:relative;
+    margin:0 20px ;
+    
+}
+.imgx22{
+    display:block;
+    float:left;
+}
+.imgx23{
+    opacity:1;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.relativex234{
+    overflow:hidden;
+    margin: 5px 60px;
+}
+.relativex34:hover .imgx23{
+    opacity:0.4;
+}
+.relativex34:hover .imgx24{
+    display:block;
+}

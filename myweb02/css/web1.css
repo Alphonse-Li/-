@@ -1,0 +1,561 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-style: "微软雅黑";
+}
+.background1 {
+  width: 1519px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.img1 {
+  width: 100%;
+}
+.box1 {
+  display: inline;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+  z-index: 0;
+}
+.text1 {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
+h1 {
+  display: block;
+  margin: 0px 0px 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.p1 {
+  width: 600px;
+  margin: 0px auto 60px;
+  padding: 20px 0px;
+  color: white;
+  font-size: 16px;
+}
+.box2 {
+  box-sizing: boreder-box;
+  border: 1px solid white;
+  height: auto;
+  margin: 0 auto;
+}
+.text2 {
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 50px 0px 20px;
+}
+.text3 {
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0px 0px 40px;
+}
+.form1 {
+  display: block;
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+.input1 {
+  position: relative;
+  z-index: 100;
+  background: rgb(0, 0, 0, 0);
+  width: 220px;
+  margin: 0px 20px 60px 0px;
+  height: 40px;
+  padding: 0px 0px 0px 20px;
+  color: white;
+  border: 1px solid white;
+  font-size: 14px;
+}
+.input2 {
+  margin: 0px 0px 60px 0px;
+  background: white;
+  border: 1px solid white;
+  width: 100px;
+  height: 40px;
+  padding: 0px 10px;
+  font-size: 14px;
+}
+/*鼠标无法点击输入文本密码提交，background的z-index=-1删除可解决*/
+.box3 {
+  text-align: center;
+  width: 800px;
+  margin: 0px auto;
+}
+.text4 {
+  display: block;
+  margin: 60px auto 30px;
+  font-size: 18px;
+}
+h2 {
+  display: block;
+  font-size: 30px;
+  font-weight: normal;
+  width: 500px;
+  margin: 30px auto 60px;
+}
+.flexbox1 {
+  display: flex;
+  width: 800px;
+  margin: 0px auto 40px;
+  flex-wrap: wrap;
+}
+.flexbox2 {
+  flex: 1;
+  list-style-type: none;
+  background: url("../picture/web1/Iphone Icon1.jpg");
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 60px;
+}
+.flexbox3 {
+  flex: 1px;
+  list-style-type: none;
+  background: url("../picture/web1/Check Icon2.jpg");
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 60px;
+}
+.flexbox4 {
+  flex: 1px;
+  list-style-type: none;
+  background: url("../picture/web1/Pencil Icon3.jpg");
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 60px;
+}
+.flexbox5 {
+  flex: 1px;
+  list-style-type: none;
+  background: url("../picture/web1/Settings Icon4.jpg");
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 60px;
+}
+.text5 {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 10px 10px;
+}
+.text6 {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  width: 100%;
+  margin: 0px 10px 60px;
+}
+.background2 {
+  width: 1519px;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.img2 {
+  width: 100%;
+}
+.box4 {
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  right: 45%;
+  text-align: left;
+}
+h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: blod;
+  width: 80%;
+  padding: 0;
+  margin: 40px 0px;
+}
+.p2 {
+  color: white;
+  font-size: 25px;
+  font-weight: normal;
+  width: 90%;
+  padding: 0;
+  margin: 40px 0px;
+}
+.box5 {
+  display: flex;
+  padding: 40px 0px;
+}
+.link1 {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid white;
+  font-size: 18px;
+  background-color: rgb(0, 0, 0, 0);
+  color: white;
+  width: 280px;
+  height: auto;
+  padding: 20px 0px;
+  margin: 0px 30px 0px 0px;
+  text-align: center;
+  flex: 1;
+}
+.link2 {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid white;
+  font-size: 18px;
+  background-color: rgb(0, 0, 0, 0);
+  color: white;
+  width: 280px;
+  height: auto;
+  padding: 20px 0px;
+  margin: 0px 30px 0px 0px;
+  text-align: center;
+  flex: 1;
+}
+.link2:link,
+.link2:visited,
+.link1:link,
+.link1:visited {
+  text-decoration: none;
+}
+.link2:hover,
+.link2:active,
+.link1:hover,
+.link1:active {
+  display: block;
+  background: white;
+  color: rgb(48, 48, 48);
+}
+/*按钮的响应链接与鼠标hover的状态 background的z-index=-1删除可解决*/
+.box6 {
+  position: absolute;
+  z-index: 0;
+  width: 40%;
+  height: 80%;
+  top: 10%;
+  right: 0px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.dot {
+  position: absolute;
+  z-index: 0;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 7%;
+  border: 1px solid white;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.img3 {
+  position: absolute;
+  z-index: 0;
+  width: 85%;
+  height: 90%;
+  top: 5%;
+  bottom: 5%;
+  right: 0px;
+}
+.box7 {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+h4 {
+  margin: 60px auto;
+  font-size: 50px;
+  font-weight: blod;
+}
+.flexbox6 {
+  display: flex;
+}
+.img4 {
+  margin: 20px auto;
+}
+.box8 {
+  margin: 0px 35px;
+  padding: 30px 10px;
+}
+.division1 {
+  width: 100%;
+  margin: 40px auto;
+  border-bottom: 1px solid rgb(48, 48, 48, 0.4);
+}
+.box9 {
+  position: relative;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px;
+  overflow: hidden;
+}
+.text7 {
+  display: block;
+  float: right;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+}
+.text8 {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+}
+.img5 {
+  display: block;
+  float: left;
+  height: 300px;
+  margin: 40px;
+}
+.img6 {
+  display: block;
+  float: right;
+  margin: 40px;
+  height: 300px;
+}
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.p3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.box10 {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+h6 {
+  font-size: 50px;
+  font-weight: blod;
+  padding: 0px;
+  margin: 60px;
+}
+.p4 {
+  width: 800px;
+  margin: 40px auto;
+  font-size: 20px;
+  font-weight: normal;
+}
+.hover01 {
+  display: block;
+  float: left;
+  width: 45%;
+  margin: 20px;
+  position: relative;
+}
+.imgg7 {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.img7 {
+  width: 45%;
+  margin: 20px;
+  display: block;
+  float: left;
+}
+.boxx1 {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgb(48, 48, 48, 0.5);
+  visibility: hidden;
+}
+.span03 {
+  font-size: 30px;
+  font-weight: blod;
+  display: block;
+  color: white;
+  margin: 60px auto;
+}
+.span04 {
+  font-size: 20px;
+  font-weight: normal;
+  display: block;
+  color: white;
+  margin: 40px auto;
+}
+.a02:link,
+.a02:visited {
+  opacity: 0.8;
+}
+.a02:hover,
+.a02:active {
+  opacity: 0.5;
+}
+.img9 {
+  padding: 20px;
+}
+.hover01:hover .boxx1 {
+  opacity: 0.8;
+  visibility: visible;
+}
+.hover01:hover .imgg7 {
+  opacity: 0.5;
+}
+.clear1 {
+  clear: both;
+}
+
+/*第一张图片鼠标响应状态 已解决*/
+.box11 {
+  width: 1000px;
+  margin: 0px auto;
+  height: auto;
+  overflow: hidden;
+}
+.float01 {
+  float: left;
+  height: auto;
+  width: 400px;
+  margin: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(48, 48, 48, 0.5);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+.span01 {
+  display: block;
+  margin: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.input3 {
+  display: block;
+  margin: 40px auto;
+  font-size: 16px;
+  font-weight: normal;
+  width: 300px;
+  padding: 10px;
+}
+.input4 {
+  display: block;
+  margin: 40px auto;
+  font-size: 16px;
+  font-weight: normal;
+  width: 300px;
+  padding: 10px 10px 120px 10px;
+}
+.input5 {
+  display: block;
+  margin: 40px auto;
+  font-size: 16px;
+  padding: 10px;
+  width: 325px;
+  background: black;
+  color: white;
+  border: 1px solid rgb(48, 48, 48, 0.8);
+  box-sizing: border-box;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.float02 {
+  display: block;
+  float: right;
+  height: auto;
+  width: 400px;
+  margin: 40px;
+  overflow: hidden;
+}
+.span02 {
+  display: block;
+  font-size: 40px;
+  font-weight: blod;
+  text-align: left;
+  margin: 100px 0px 20px;
+}
+.p5 {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  width: 400px;
+  margin: 0px 0px 60px;
+  color: rgb(48, 48, 48);
+}
+.ul01 {
+  list-style-type: none;
+
+  display: block;
+  position: relative;
+  left: -40px;
+}
+.li01 {
+  background-image: url(../picture/web1/Map1.jpg);
+  background-repeat: no-repeat;
+  padding: 0px 0px 25px 30px;
+  font-size: 16px;
+}
+.li02 {
+  background-image: url(../picture/web1/Phone2.jpg);
+  background-repeat: no-repeat;
+  padding: 0px 0px 25px 30px;
+  font-size: 16px;
+}
+.li03 {
+  background-image: url(../picture/web1/Mail3.jpg);
+  background-repeat: no-repeat;
+  padding: 0px 0px 25px 30px;
+  font-size: 16px;
+}
+.background3 {
+  width: 1519px;
+  background: black;
+  margin: 40px 0px 0px 0px;
+  height: auto;
+  display: flex;
+  text-align: center;
+}
+.dl01 {
+  flex: 1;
+  margin: 70px;
+  text-align: left;
+}
+.dt01 {
+  color: white;
+  font-size: 20px;
+  margin: 20px 20px;
+}
+.dd01 {
+  color: rgb(255, 255, 255, 0.6);
+  font-size: 18px;
+  margin: 40px 20px;
+  text-align: left;
+}
+.img8 {
+  text-align: left;
+  margin: 3px;
+  opacity: 0.7;
+}
+.a04:link,.a04:visited{
+    opacity:0.7
+}
+.a04:hover,.a04:active{
+    opacity:1
+}

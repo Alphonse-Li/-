@@ -1,0 +1,39 @@
+body{
+    /*在CSS里面，因继承关系，通常在body标签消除全体元素内外边距的影响*/
+    font-family:微软雅黑;/*字体*/
+    font-weight:bold;/*加粗*/
+    color:rgb(48,48,48);/*颜色*/
+    margin:0px;/*消除外边距*/
+    padding:0px;/*消除内边距*/
+    }
+h1{
+    font-size:30px;/*字号*/
+    } 
+h2{
+    font-size:20px; 
+    }
+.information1{
+    display:block;/*行内元素转换为块级*/
+    float:left;/*向左浮动*/
+    margin:0px 16px 0px 0px;/*设置外边距*/
+    }
+.clear{
+    clear:both;/*单独设置一个空div清除浮动，也可以在父级元素使用overfloat：hidden；清除浮动*/
+    }
+.ability1{
+    display:block;
+    margin:8px 0px;
+    }
+/*伪选择器，给链接加特效*/
+a:link{
+    color:blue;
+    }
+a:visited{
+    color:purple;
+    }
+a:hover{
+    color:yellow;
+    }
+a:active{
+    color:green;
+    }

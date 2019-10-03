@@ -1,0 +1,143 @@
+body{
+    font-style:"微软雅黑";
+    font-size:18px;
+    margin:0px;
+    padding:0px;
+    
+}
+.layout1{
+    display:block;
+    width:100%;
+    background-color:rgb(48,48,48);
+    height:60px;
+    position:fixed;
+    top:0px;
+    z-index:100;
+}
+.first1{
+    height:60px;
+    width:960px;
+    margin:0px auto;
+    overflow:hidden;  
+}
+.logo1{
+    font-size:18px;
+    padding:15px 0px;
+    color:white;
+    float:left;
+}
+.other1{
+    display:block;
+    float:right;
+    padding:5px 0px 0px 5px;
+    font-size:12px;
+    color:white;
+}
+.other2{
+    display:inline;
+}
+.white1{
+    width:100%;
+    height:400px;
+    background-color:rgb(71, 212, 71);
+    position:relative;
+    top:60px;
+    z-index:50;
+}
+.shuffling1{
+    display:block;
+    float:right;
+    position:relative;
+    bottom:-350px;
+    right:20%;
+}
+.shuffling2{
+    background:rgba(255, 255, 255, 0.89);
+    color:rgba(0,0,0,0.7);
+    border:1px solid rgb(48,48,48);
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    font-size:15px;
+    box-sizing:border-box;
+    padding:2px 7px;
+}
+.border1{
+    height:1px;
+    width:100%;
+    background-color:rgb(48, 48, 48);
+    position:relative;
+    top:140px;
+    z-index:50;
+}
+nav{
+    width:960px;
+    margin:0 auto;
+}
+ul li{
+    list-style:none;
+    display:block;
+    float:left;
+    background-color:white;
+    box-sizing:border-box;
+    border-top:1px solid rgb(48,48,48);
+    border-left:1px solid rgb(48,48,48);
+    border-right:1px solid rgb(48,48,48);
+    border-top-left-radius:16px;
+    border-top-right-radius:16px;
+    padding:10px;
+    font-size:16px;
+    position:relative;
+    top:80px;
+    z-index:70;
+}
+.flexbox1{
+    position:relative;
+    top:110px;
+    display:flex;
+    width:100%;
+    text-align:center; /*可在父元素使用它使子元素居中*/
+}
+.flexbox2{
+   padding:80px 40px;
+   box-sizing:border-box;
+   border:1px solid rgb(48,48,48);
+   margin:5px;
+   justify-content:space-around;
+   flex:1;
+}
+
+.bottom1{
+    position:relative;
+    top:150px;
+    bottom:0px;
+    widows:100%;
+    padding:80px;
+    background-color:rgb(61, 60, 60);
+}
+.bottom2{
+    display:block;
+    font-size:12px;
+    padding:0px;
+    width:130px;
+    margin:0px auto;
+    color:white;
+    position:relative;
+    bottom:50px;
+
+}
+.other2:link,.other2:visited{
+    color:white;
+}
+.other2:hover,.other2:active{
+    color:yellow;
+}
+.sty2:link,.sty2:visited{
+    color:rgb(48, 48, 48);
+    text-decoration:none
+}
+.sty2:hover,.sty2:active{
+    color:yellow;
+    text-decoration:none;
+}

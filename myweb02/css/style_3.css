@@ -1,0 +1,67 @@
+body{
+    /*在CSS里面，因继承关系，通常在body标签消除全体元素内外边距的影响*/
+    font-family:微软雅黑;/*字体*/
+    font-weight:bold;/*加粗*/
+    color:rgb(48,48,48);/*颜色*/
+    margin:0px;/*消除外边距*/
+    padding:0px;/*消除内边距*/
+    }
+h1{
+    font-size:30px;/*字号*/
+    display:block;/*变成块级*/
+    float:left;/*浮动*/
+    background-color:rgb(39, 39, 43); /*背景颜色*/
+    color:white;/*字体颜色*/
+    padding:50px 700px 50px 50px;/*内边距*/
+    width:100px;/*内容宽度*/
+    margin:0px;/*内边距*/
+    height:auto;
+    } 
+h2{
+    font-size:20px; 
+    display:block;
+    float:left;
+    background-color:rgb(74, 74, 77);
+    color:white;
+    height:auto;
+    width:auto;
+    padding:50px 30px 50px 30px;
+    margin:0px 20px 0px 0px;
+    }
+.information1{
+    display:block;
+    float:left;
+    margin:0px;
+    padding:25px 25px 0px 0px;
+    }
+.information2{
+    display:block;
+    padding:15px 0px 0px 0px;
+    margin:0px;
+    }
+.clear2{
+    overflow:hidden;
+    display:block;
+    width:850px;
+    height:auto;
+    box-sizing:border-box;/*盒子边框*/
+    border-bottom:2px solid rgb(48,48,48);
+    border-right:2px solid rgb(48,48,48);
+    }
+    /*盒子边框样式，1px宽 实线 灰色*/
+/*伪选择器，给链接加特效*/
+.cl1{
+    overflow:hidden;/*在父级元素上的清除浮动*/
+    }
+a:link{
+    color:blue;
+    }
+a:visited{
+    color:purple;
+    }
+a:hover{
+    color:yellow;
+    }
+a:active{
+    color:green;
+    }
